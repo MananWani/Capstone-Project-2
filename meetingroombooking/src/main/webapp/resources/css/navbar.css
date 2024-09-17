@@ -1,0 +1,69 @@
+
+body {
+	font-family: 'Rubrik', cursive;
+}
+
+.navbar {
+	position: sticky ;
+	top: 0;
+	z-index: 1000;
+	background-color: #fff;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.navbar-brand {
+	font-size: 3rem;
+	color: black;
+	font-family: 'Handjet', cursive;
+	font-weight: bold;
+}
+
+.navbar-brand:hover {
+	color: black;
+}
+
+.nav-link {
+	margin-right: 10px;
+	margin-left: 10px;
+	color: black;
+	text-transform: uppercase;
+	font-family: 'Rubrik', cursive;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+.btn0 {
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	background: crimson;
+	color: white;
+	border-radius: 60px;
+	font-family: 'Rubik', cursive;
+}
+
+.btn0:hover {
+	background-color: #c8102e;
+	color: white;
+}
+
+.dropdown-menu {
+	background-color: #fff; 
+	border: 1px solid #ddd;
+}
+
+.dropdown-menu .dropdown-item {
+    font-family: 'Rubik', cursive;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: crimson;
+    color: white;
+}

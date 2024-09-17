@@ -1,0 +1,49 @@
+.logo {
+	display: block;
+	margin: 10px auto;
+	width: 120px;
+	height: 100px;
+}
+
+.btn1 {
+	display: none; /* Hide by default */
+	height: 45px;
+	width: 355px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	background: crimson;
+	color: white;
+	border-radius: 6px;
+	font-family: 'Rubik', cursive;
+	transition: background 0.3s; /* Smooth transition effect */
+}
+
+.btn1.show {
+	display: block; /* Show when .show class is added */
+}
+
+
+.password-container {
+	position: relative;
+	display: flex;
+	align-items: center; /* Center items vertically */
+}
+
+.eye-icon {
+	position: absolute;
+	top: 50%; /* Center vertically */
+	right: 10px; /* Distance from the right edge */
+	transform: translateY(-50%);
+	/* Center vertically considering its own height */
+	cursor: pointer;
+	display: none; /* Hide by default */
+	font-size: 1.2rem; /* Adjust font size if needed */
+	color: #333; /* Adjust color if needed */
+}
+
+.password-container.show-eye .eye-icon {
+	display: block; /* Show when .show-eye class is added */
+}

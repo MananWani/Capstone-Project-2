@@ -1,0 +1,58 @@
+.main {
+	background-size: cover;
+	background-position: center;
+	height: 100vh; /* Full viewport height */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	color: white; /* Text color */
+	text-align: center; /* Center text */
+}
+
+.welcome-message:hover {
+	transform: translateY(-10px); /* Move up by 10px on hover */
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+	/* Enhanced shadow on hover */
+}
+
+.welcome-message {
+	background: rgba(255, 255, 255, 0.3); /* White with 50% opacity */
+	padding: 30px;
+	border-radius: 10px;
+	max-width: 700px;
+	width: 90%;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Slight shadow effect */
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	color: white;
+}
+
+.welcome-message h1 {
+	font-family: 'Rubik', cursive;
+	margin: 2px;
+}
+
+.welcome-message p {
+	font-family: 'Rubik', cursive;
+	margin: 12px 0 0;
+	font-size: 1.2rem;
+}
+
+.btn2 {
+	font-family: 'Rubik', cursive;
+	font-size: 1.25rem;
+	color: white; /* Text color */
+	text-decoration: none;
+	display: block; /* Make the button a block-level element */
+	text-align: center; /* Center text horizontally */
+	padding: 10px 20px; /* Add padding for better button appearance */
+	background-color: crimson; /* Make the background transparent */
+	border: none; /* Add a border to maintain visibility */
+	border-radius: 60px; /* Optional: rounded corners */
+	margin-top: 20px; /* Space between paragraph and button */
+}
+
+.btn2:hover {
+	background-color: #c8102e; /* Light background on hover */
+	color: white;
+}

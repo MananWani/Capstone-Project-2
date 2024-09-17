@@ -1,0 +1,85 @@
+.btn1 {
+	display: block;
+	height: 45px;
+	width: 90px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	background: crimson;
+	color: white;
+	border-radius: 3px;
+	font-family: 'Rubik', cursive;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+/* Modal content styles */
+.modal-content {
+	background-color: #fefefe;
+	margin: 5% auto; /* Centered vertically with a margin from the top */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%; /* Adjusted width for more space */
+	max-width: 1000px; /* Maximum width for larger screens */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	border-radius: 8px; /* Optional: Add rounded corners */
+	position: relative; /* Needed for positioning the close button */
+}
+
+/* Close button styles */
+.close {
+	color: #aaa;
+	position: absolute;
+	right: 15px; /* Space from the right edge */
+	top: 15px; /* Space from the top edge */
+	font-size: 28px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.close:hover, .close:focus {
+	color: black;
+	text-decoration: none;
+}
+
+.managers-container {
+	display: flex;
+	flex-wrap: wrap;
+	/* Allow managers to wrap to the next line if needed */
+	gap: 20px; 
+}
+
+.manager-card {
+	flex: 1 1 250px;
+	/* Flex-grow, flex-shrink, and flex-basis to handle card sizing */
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 10px;
+	background: crimson;
+	color: white;
+}
+
+.employee-list {
+	margin-top: 10px;
+}
+
+.general-manager h4 {
+	background: crimson; 
+	padding: 20px; 
+	border-radius: 8px;
+	margin-bottom: 20px;
+	color: white; 
+}

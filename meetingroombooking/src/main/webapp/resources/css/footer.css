@@ -1,0 +1,38 @@
+body {
+	font-family: 'Rubrik', cursive;
+}
+.footer {
+    background-color: crimson; 
+    color: #fff; 
+    	font-family: 'Rubrik', cursive;
+     	
+    
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #fff; 
+   
+}
+
+.footer p {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    color: #fff; 
+    
+}
+
+.footer a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .container {
+    max-width: 1140px;
+    margin: 0 auto; 
+} 
